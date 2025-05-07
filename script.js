@@ -54,7 +54,7 @@ ageTag2.className = "card-subtitle";
 ageTag2.textContent = `My age is ${userData[0].age}`
 
 let img2 = document.createElement("img");
-img2.src = userData[1].src
+img2.src = userData[0].src
 img2.classList = "card-img-top"
 img2.width = "200px"
 
